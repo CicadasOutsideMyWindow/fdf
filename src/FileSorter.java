@@ -24,7 +24,7 @@ public class FileSorter {
 		
 //		DBHandler.createDBTable();
 		
-		File sourceDir = new File("/Users/1000312367/ThePhotoArchive");
+		File sourceDir = new File("");
 		List<File> files = (List<File>) FileUtils.listFiles(sourceDir, TrueFileFilter.INSTANCE, TrueFileFilter.INSTANCE);
 //		for (File file : files) {
 //			FileAttributes fa = new FileAttributes(file);
